@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // ROUTES
 app.use("/api/sweets", require("./routes/sweetRoute.js"));
-app.use("/api/categories", require("./routes/categoryRoute.js"));
+// app.use("/api/categories", require("./routes/categoryRoute.js"));
 app.use("/api/orders", require("./routes/orderRoute.js"));
 
 // LISTENING to port
